@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data and large files (ignored to avoid hitting GitHub limits)
+*.zip
+*.json
+!cluster_results.json
+cluster_results.json
+!cluster_results.json
+cluster_results.json
+
+# If you specifically want some CSVs to be uploaded, you can uncomment them:
+# !us_cities_electricity_weather.csv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environment
+venv/
+env/
+.env
+
+# MacOS
+.DS_Store
